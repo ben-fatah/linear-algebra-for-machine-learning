@@ -57,13 +57,5 @@ git remote add origin https://github.com/<your-username>/Lab-numby-jupyter.git
 git push -u origin main
 ```
 
-Replace `<your-username>` with your GitHub username and ensure the remote repo exists (or create it on github.com).
-
-## Notes
-
-- Notebooks may include outputs or cached files. Consider cleaning outputs before committing large results.
-- This README is intentionally concise. Add more project-specific instructions if you plan to share this repo.
-
----
 
 Created: October 4, 2025
