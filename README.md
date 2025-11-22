@@ -1,79 +1,48 @@
 # Linear Algebra for Machine Learning
 
-A collection of Jupyter notebooks for learning linear algebra concepts essential for machine learning.
+Learn the basics of linear algebra for machine learning through hands-on Jupyter notebooks.
 
-## 📚 Contents
+## 📚 Notebooks
 
-### Week 1
-- **C1_W1_Lab_1_introduction_to_numpy_arrays.ipynb** - Introduction to NumPy arrays and basic operations
-- **C1_W1_Lab_2_linear_systems_as_matrices.ipynb** - Understanding linear systems and matrix representations
+1. **introduction_to_numpy_arrays.ipynb** - Learn NumPy and arrays
+2. **linear_systems_as_matrices.ipynb** - Understand matrices and solving equations
+3. **vector_operations.ipynb** - Work with vectors
+4. **gaussian_elimination.ipynb** - Learn Gaussian elimination method
+5. **Interpreting_eigenvalues_and_eigenvectors.ipynb** - Eigenvalues and eigenvectors
+6. **trymatplotwithsystem.ipynb** - Practice and play around
 
-### Week 2-3
-- **C1W2_Assignment.ipynb** - Week 2 assignment covering vector operations and linear transformations
-- **C1W3_UGL_1_vector_operations.ipynb** - Vector operations and geometric linear algebra
+## 🚀 Setup
 
-### Additional Resources
-- **trymatplotwithsystem.ipynb** - Visualization and experimentation notebook
-- **utils.py** - Utility functions for plotting linear systems
+Install what you need:
+```bash
+pip install numpy matplotlib jupyter
+```
 
-## 🚀 Getting Started
+Start Jupyter:
+```bash
+jupyter notebook
+```
 
-### Prerequisites
-- Python 3.7+
-- Jupyter Notebook or JupyterLab
-- NumPy
-- Matplotlib
+## � What You'll Learn
 
-### Installation
+- How to use NumPy
+- Matrices and linear equations
+- Vectors and their operations
+- Solving systems of equations
+- Eigenvalues and eigenvectors
+- Visualizing linear systems
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install numpy matplotlib jupyter
-   ```
+## 🎯 How to Use
 
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
+1. Open a notebook
+2. Read and run each cell
+3. Try changing the code
+4. Learn by doing
 
-## 📖 Topics Covered
+## �️ Helpers
 
-- NumPy array creation and manipulation
-- Matrix operations and linear systems
-- Vector operations and norms
-- Linear transformations
-- Solving systems of linear equations
-- Visualization of 2D linear systems
-
-## 📝 How to Use
-
-1. Open any notebook in Jupyter
-2. Run cells sequentially to learn concepts
-3. Modify code examples and experiment
-4. Complete assignments to practice
-
-## 🛠️ Utilities
-
-The `utils.py` file contains helper functions:
-- `plot_lines()` - Visualizes 2D linear systems by plotting equations and their solutions
-
-## 📊 Example Output
-
-The visualization utilities help you understand:
-- How linear equations appear graphically
-- Intersection points (solutions) of linear systems
-- Visual representation of 2D solution spaces
-
-## 💡 Learning Path
-
-1. Start with Week 1 labs for NumPy fundamentals
-2. Progress to linear systems and matrices
-3. Explore vector operations in Week 3
-4. Complete assignments to test your knowledge
-5. Use visualization notebook for experimentation
+`utils.py` - Has helper functions for drawing graphs
 
 ---
 
-**Author:** ben-fatah  
-**Course:** Linear Algebra for Machine Learning
+**Happy Learning!**
