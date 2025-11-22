@@ -1,93 +1,79 @@
-# Linear Algebra for Machine Learning — NumPy Jupyter Labs
+# Linear Algebra for Machine Learning
 
-This repository contains short, hands-on Jupyter notebooks designed to teach and practice core linear algebra concepts used in machine learning, implemented with NumPy. The materials are intended for self-study, classroom labs, or assignments.
+A collection of Jupyter notebooks for learning linear algebra concepts essential for machine learning.
 
-## What you'll learn
+## 📚 Contents
 
-- Represent vectors and matrices with NumPy
-- Perform vector and matrix arithmetic (addition, scaling, dot products)
-- Solve linear systems using matrix methods
-- Understand matrix properties that matter in ML (rank, invertibility)
-- Apply linear algebra primitives to simple ML tasks (projections, linear regression basics)
+### Week 1
+- **C1_W1_Lab_1_introduction_to_numpy_arrays.ipynb** - Introduction to NumPy arrays and basic operations
+- **C1_W1_Lab_2_linear_systems_as_matrices.ipynb** - Understanding linear systems and matrix representations
 
-## Notebooks (quick overview)
+### Week 2-3
+- **C1W2_Assignment.ipynb** - Week 2 assignment covering vector operations and linear transformations
+- **C1W3_UGL_1_vector_operations.ipynb** - Vector operations and geometric linear algebra
 
-Files in this repo (open the ones you need):
+### Additional Resources
+- **trymatplotwithsystem.ipynb** - Visualization and experimentation notebook
+- **utils.py** - Utility functions for plotting linear systems
 
-- `C1_W1_Lab_1_introduction_to_numpy_arrays.ipynb` — NumPy fundamentals: arrays, slicing, broadcasting, and performance tips.
-- `C1_W1_Lab_2_linear_systems_as_matrices.ipynb` — Model linear systems as Ax = b, solve with `numpy.linalg.solve`, interpret solutions.
-- `C1W2_Assignment.ipynb` — Assignment notebook with exercises and cells for your answers (submission-ready).
-- `C1W3_UGL_1_vector_operations.ipynb` — Vector operations, norms, unit vectors, and geometric interpretation.
-- `test_numpy.ipynb` — Small playground for trying NumPy snippets.
+## 🚀 Getting Started
 
-Other helper files (may or may not be present): `quiz.py`, `utils.py`, and an `images/` folder with explanatory diagrams.
-
-If a notebook name in your copy differs slightly, open the .ipynb files in the repo root to see the content.
-
-## Prerequisites
-
-- Python 3.8 or newer (3.8–3.11 recommended)
+### Prerequisites
+- Python 3.7+
 - Jupyter Notebook or JupyterLab
-- NumPy (latest stable release recommended)
+- NumPy
+- Matplotlib
 
-On Windows PowerShell, install quickly:
+### Installation
 
-```powershell
-python -m pip install --upgrade pip
-python -m pip install jupyter numpy
-```
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install numpy matplotlib jupyter
+   ```
 
-Using a virtual environment (recommended):
+3. Launch Jupyter:
+   ```bash
+   jupyter notebook
+   ```
 
-```powershell
-python -m venv .venv; .\.venv\Scripts\Activate.ps1; python -m pip install -U pip jupyter numpy
-```
+## 📖 Topics Covered
 
-## Open and run the notebooks
+- NumPy array creation and manipulation
+- Matrix operations and linear systems
+- Vector operations and norms
+- Linear transformations
+- Solving systems of linear equations
+- Visualization of 2D linear systems
 
-1. Start Jupyter from the repository root:
+## 📝 How to Use
 
-```powershell
-jupyter notebook
-```
+1. Open any notebook in Jupyter
+2. Run cells sequentially to learn concepts
+3. Modify code examples and experiment
+4. Complete assignments to practice
 
-2. Click a notebook to open. Read the explanatory Markdown cells, then run code cells with Shift+Enter.
+## 🛠️ Utilities
 
-3. Many notebooks include small exercises. For assignment notebooks (e.g. `C1W2_Assignment.ipynb`), there are dedicated answer cells — keep your solutions in those cells.
+The `utils.py` file contains helper functions:
+- `plot_lines()` - Visualizes 2D linear systems by plotting equations and their solutions
 
-Tips for working with the notebooks:
+## 📊 Example Output
 
-- Restart the kernel and Run All cells if you want a clean run: Kernel -> Restart & Run All.
-- Use small helper prints to inspect shapes: print(arr.shape) and dtype to avoid broadcasting mistakes.
-- Save often (Jupyter does auto-save but commit to git before major changes).
+The visualization utilities help you understand:
+- How linear equations appear graphically
+- Intersection points (solutions) of linear systems
+- Visual representation of 2D solution spaces
 
-## Suggested workflow for the assignment
+## 💡 Learning Path
 
-1. Open `C1W2_Assignment.ipynb` and read the instructions.
-2. Work through the supporting labs (`C1_W1_Lab_1...`, `C1_W1_Lab_2...`, `C1W3_UGL_1_vector_operations.ipynb`) to review concepts.
-3. Implement answers directly in the assignment notebook cells.
-4. When ready, export the assignment notebook as HTML or keep the .ipynb and push it to your repo for submission.
-
-## Exercises & extensions (optional)
-
-- Implement a simple linear regression using normal equations (X^T X) and compare with `numpy.linalg.lstsq`.
-- Experiment with ill-conditioned matrices: generate matrices with nearly-dependent columns and observe solver behavior.
-- Visualize vector projections in 2D using matplotlib (add `matplotlib` to requirements).
-
-## Troubleshooting
-
-- If you see shape errors, print shapes of operands and ensure compatible dimensions for matrix multiplication (`@` or `np.dot`).
-- If `numpy.linalg.solve` raises a LinAlgError (singular matrix), check matrix rank with `np.linalg.matrix_rank(A)`.
-
-## Contributing
-
-If you have improvements or new exercises, please open a PR. Keep notebooks focused (small, clearly documented cells) and add tests where reasonable.
-
-## License & attribution
-
-These materials are provided for learning and classroom use. If you adapt or redistribute, cite the original author.
+1. Start with Week 1 labs for NumPy fundamentals
+2. Progress to linear systems and matrices
+3. Explore vector operations in Week 3
+4. Complete assignments to test your knowledge
+5. Use visualization notebook for experimentation
 
 ---
 
-Created/updated: October 4, 2025
-
+**Author:** ben-fatah  
+**Course:** Linear Algebra for Machine Learning
